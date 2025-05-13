@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/contentstack-angular-starter-app",
+            "outputPath": "dist/Angular-Starter",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "contentstack-angular-starter-app:build"
+            "browserTarget": "Angular-Starter:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "contentstack-angular-starter-app:build:production"
+              "browserTarget": "Angular-Starter:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "contentstack-angular-starter-app:build"
+            "browserTarget": "Angular-Starter:build"
           }
         },
         "lint": {
@@ -98,5 +98,5 @@
       }
     }
   },
-  "defaultProject": "contentstack-angular-starter-app"
+  "defaultProject": "Angular-Starter",
 }
